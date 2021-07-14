@@ -56,10 +56,17 @@ body{
     font-size: 16px;
     color: #FFFFFF;
     border: none;
+    text-decoration: none;
  }
- .banner img{
+ .banner-2nd img{
     width: 556.01px;
     height: 438px;
+ }
+ .banner-1st {
+   transition: transform ease-out 1.5s;
+ }
+ .banner-1st:hover {
+   transform: skew(-30deg, 30deg) scale(1.01);
  }
 /* --------------
 top blogs styles
@@ -67,8 +74,10 @@ top blogs styles
 main{
    background-color: #FFFFFF;
 }
+/*----------
+ player details  
+ --------------*/
 .container{
-   
    display: flex;
    flex-direction: row;
    justify-content: center;
@@ -106,32 +115,30 @@ main{
 .player-details{
    color:#6C6C6C;
 }
-/* third part  */
-.third-part{
+/*---------
+ all heighlights
+ ---------------*/
+.highlights{
    margin-top: 165px;
    margin-bottom: 58px;
    margin-left: 182px;
    margin-right: 156px;
 }
-.so-tired{
+.highlights-area{
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-   /* box-shadow: 3px solid blue; */
    height: 80px;
    width: 100px;
-   /* align-items: flex-start; */
-   /* margin-left: 182px;
-   margin-top: 100px; */
 }
-.one{
+.highlights-text{
    width: 330px;
 }
-.two img{
+.highlights-img img{
    width: 567px;
    height: 427px;
    margin-left: 180px;
 }
-.rrr{
+.default-text{
    font-size: 48px;
    font-weight: bold;
 }
