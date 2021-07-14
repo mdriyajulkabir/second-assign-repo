@@ -142,6 +142,62 @@ main{
    font-size: 48px;
    font-weight: bold;
 }
+
+/*------------ 
+      xtra 
+------------------*/
+.name{
+   padding-left:40px;
+}
+.new-adder{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.photo-frame{
+   width: 300px;
+   height: 200px;
+   border: 2px solid darkgrey;
+   border-radius: 10px;
+   position: relative;
+   margin: 10px;
+   overflow: hidden;
+}
+.photo img{
+   width: 100%;
+   border-radius: 10px;
+}
+.photo-details{
+   display: none;
+   position: absolute;
+   width: 300px;
+   top: 0;
+   overflow: scroll;
+  overflow-x: hidden;
+  height: 164px;
+  margin: 10px;
+}
+.photo-frame:hover .photo-details{
+   display: block;
+   background-color: rgba(199, 180, 134, 0.7);
+}
+.photo-details h3{
+   background-color:bisque;
+   color:black;
+   text-align: center;
+}
+.photo-details p{
+   color: white;
+}   
+.photo-album{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+      
+.photo-frame:hover .photo{
+  transform: scale(1.3) skew(-30deg);
+  transition: transform 2s ease-in-out;
+}
 /*--------------------
  mission footer  
  --------------------*/
@@ -171,3 +227,4 @@ main{
    color: #000000;
    font-size: 18px;
 }
+
