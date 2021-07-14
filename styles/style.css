@@ -1,0 +1,166 @@
+/* Poppins fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*------------------
+ footer title  
+ -------------------*/
+ .menu-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 67px;
+
+ }
+ .menu-bar .menu-list a{
+   font-weight: 500;
+   font-size: 16px;
+   color: #FFFFFF;
+   text-decoration: none;
+ }
+ .anchor-gap{
+    padding-left: 36px;
+ }
+ .log-in{
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+ }
+ header{
+    width: 1054px;
+    height: 677px;
+    background-color: #2D25A0;
+    padding: 42px 124px 86px 156px;
+    margin-bottom: 70px;
+ }
+ .header-title{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-column-gap: 29px;
+ }
+ .title-info{
+    height: 100px;
+ }
+ .info{
+    font-size: 64px;
+    font-weight: bold;
+    color: #FFFFFF;
+ }
+ .watch-live{
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+ }
+ .banner img{
+    width: 556.01px;
+    height: 438px;
+ }
+/* --------------
+top blogs styles
+---------------- */
+main{
+   background-color: #FFFFFF;
+}
+.container{
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.blog img{
+   width: 300px;
+   height: 256px;
+  
+   
+}
+.top-blogs{
+   display: grid;
+   margin-left: 80px;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 30px;
+   grid-row-gap: 27px;
+}
+
+
+.blogs{
+   
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   height: 474px;
+   width: 330px;
+   
+}
+.blog{
+   padding: 15px 15px 33px 15px;
+}
+.text{
+   overflow: scroll;
+   height: 164px;
+   overflow-x: hidden;
+}
+.player-details{
+   color:#6C6C6C;
+}
+/* third part  */
+.third-part{
+   margin-top: 165px;
+   margin-bottom: 58px;
+   margin-left: 182px;
+   margin-right: 156px;
+}
+.so-tired{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   /* box-shadow: 3px solid blue; */
+   height: 80px;
+   width: 100px;
+   /* align-items: flex-start; */
+   /* margin-left: 182px;
+   margin-top: 100px; */
+}
+.one{
+   width: 330px;
+}
+.two img{
+   width: 567px;
+   height: 427px;
+   margin-left: 180px;
+}
+.rrr{
+   font-size: 48px;
+   font-weight: bold;
+}
+/*--------------------
+ mission footer  
+ --------------------*/
+.footer-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin-top: 158px;
+    margin-bottom: 63px;
+ }
+ .football-logo{
+    margin-bottom: 20px;
+ }
+.footer-bar .football-logo img{
+   width: 483.87px;
+   height: 110px;
+}
+.social-icon{
+   margin-bottom: 20px;
+}
+.footer-bar .social-icon a{
+   margin-right: 14px;
+   font-size: 20px;
+}
+.copyright{
+   color: #000000;
+   font-size: 18px;
+}
