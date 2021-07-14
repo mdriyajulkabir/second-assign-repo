@@ -227,4 +227,55 @@ main{
    color: #000000;
    font-size: 18px;
 }
-
+/* responsive */
+@media (max-width: 688px) {
+   .header-banners {
+     height: 700px;
+     display: flex;
+     flex-direction: column;
+     justify-items: center;
+   }
+   .top-blogs{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+   }
+   .new-adder{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+   }
+   .highlights-area{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      width: 100%;
+   }
+  .footer-bar{
+     width: 250px;
+  }
+  .football-logo img{
+     width: 100%;
+  }
+}
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+   .header-banners {
+     height: 100%;
+   }
+   .top-blogs{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .new-adder{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .highlights-area{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+   }
+  .footer-bar{
+     width: 100%;
+  }
+  .football-logo img{
+     width: 100%;
+  }
+}
